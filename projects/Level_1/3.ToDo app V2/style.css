@@ -1,0 +1,110 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(130deg, rgb(3, 112, 112), rgb(2, 2, 124));
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  background: linear-gradient(130deg, rgb(3, 112, 112), rgb(2, 2, 124));
+  min-height: 100vh;
+  height: auto;
+  padding: 10px;
+}
+
+
+.todo-app {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  background: rgba(0, 0, 0, 0.3);
+  border: 2px solid white;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.76);
+  backdrop-filter: blur(200px);
+  margin: 10px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 30px;
+}
+
+.todo-app h2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  outline: 1px solid rgba(255, 255, 255, 0.781);
+}
+.row input::placeholder {
+  color: rgba(255, 255, 255, 0.767);
+}
+
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background: #4fa776;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0 400px 400px 0;
+  font-weight: 600;
+}
+button:hover {
+  background: rgb(0, 75, 0);
+  transition: all 0.3s ease;
+}
+
+ul li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 8px 10px 20px;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0 0 5px rgba(86, 79, 180, 0.24);
+  border-radius: 400px;
+  margin-bottom: 10px;
+}
+
+ul li span {
+  position: absolute;
+  transform: translateY(-4px);
+  right: 40px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  border-radius: 50%;
+}
+
+ul li span:hover {
+  background: rgb(166, 166, 255);
+  transform: rotate(270deg);
+  transition: all 0.5s ease;
+}

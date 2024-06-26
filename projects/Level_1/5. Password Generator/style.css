@@ -1,0 +1,55 @@
+body {
+  color: white;
+  background: rgb(28, 0, 46);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+button {
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px 20px;
+}
+.container {
+  margin: 0 20%;
+}
+#Length {
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: rgb(91, 34, 126);
+  border: none;
+  color: white;
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 10px rgba(231, 170, 255, 0.596);
+}
+#Length::placeholder {
+  color:  rgb(155, 111, 182);
+}
+#passwordDisplay {
+  overflow-wrap: break-word;
+}
+#Submit:hover {
+  background: rgb(155, 111, 182);
+  color: cyan;
+  transition: all 0.3s ease;
+}
+#Submit:active {
+  outline: 3px solid rgb(144, 60, 196);
+}
+
+#passwordDisplay {
+  background: rgba(155, 111, 182, 0.13);
+  border-radius: 20px;
+  padding: 5%;
+  box-shadow: 4px 3px 12px black;
+  width: auto;
+  max-width: 600px;
+  margin: 0 auto;
+}
