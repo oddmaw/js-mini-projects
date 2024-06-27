@@ -21,3 +21,6 @@ A random password generator that creates strong passwords based on user-selected
 
 ### [6. Digital Clock](./6.%20Digital%20Clock)
 A digital clock that displays the current time and updates every second.
+
+### [7. StopWatch](./7.%20StopWatch)
+A stopwatch that measures elapsed time and updates every second.
